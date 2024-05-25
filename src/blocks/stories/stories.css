@@ -9,7 +9,7 @@
 .stories__title {
     margin-block-end: clamp(2rem, 1.2958rem + 3.0047vw, 4rem);
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: clamp(1.5rem, 0.9718rem + 2.2535vw, 3rem);
 
     text-align: center;

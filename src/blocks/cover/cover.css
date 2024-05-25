@@ -8,7 +8,7 @@
 }
 
 .cover__title {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: clamp(1.5rem, 0.8662rem + 2.7042vw, 3.3rem);
     font-weight: 600;
     line-height: clamp(2.2rem, 1.5662rem + 2.7042vw, 4rem);
