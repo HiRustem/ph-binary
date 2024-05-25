@@ -1,0 +1,116 @@
+.stories {
+    margin-block-end: clamp(4rem, 1.8873rem + 9.0141vw, 10rem);
+
+    background-image: url(../../images/costumer-blur.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.stories__title {
+    margin-block-end: clamp(2rem, 1.2958rem + 3.0047vw, 4rem);
+
+    font-family: 'Montserrat';
+    font-size: clamp(1.5rem, 0.9718rem + 2.2535vw, 3rem);
+
+    text-align: center;
+}
+
+.stories__list {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+
+    gap: 2.5rem;
+
+    margin-block-end: clamp(1rem, -0.0563rem + 4.507vw, 4rem);
+
+    list-style: none;
+}
+
+.stories__list-item:nth-child(2n) {
+    justify-self: flex-end;
+}
+
+.stories__card {
+    display: flex;
+
+    gap: 2rem;
+
+    max-inline-size: 760px;
+    block-size: 250px;
+
+    padding: 2rem;
+
+    background-color: #fff;
+
+    border-radius: 1rem;
+}
+
+.stories__card-person {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+}
+
+.stories__card-image {
+    block-size: 100px;
+    inline-size: 110px;
+}
+
+.stories__card-profit {
+    font-size: .7rem;
+    color: #0099fa;
+
+    text-align: center;
+}
+
+.stories__card-comment {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    gap: 1rem;
+}
+
+.stories__card-description {
+    font-size: 1rem;
+    color: #1e385b;
+    text-align: center;
+}
+
+.stories__card-name {
+    font-size: 1.1rem;
+    color: #0099fa;
+}
+
+.stories__bot-text {
+    font-size: clamp(1rem, .8239rem + .7512vw, 1.5rem);
+    text-align: center;
+}
+
+@media (width < 768px) {
+    .stories__title {
+        margin-block-end: 8rem;
+    }
+
+    .stories__list {
+        gap: 8rem;
+    }
+
+    .stories__card {
+        flex-direction: column;
+
+        block-size: auto;
+    }
+
+    .stories__card-person {
+        margin-block-start: -6.5rem;
+
+        align-items: center;
+    }
+
+    .stories__card-comment {
+        font-size: clamp(0.8rem, 0.7515rem + 0.2071vw, 1rem);
+    }
+}

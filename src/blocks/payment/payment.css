@@ -1,0 +1,30 @@
+.payment {
+    margin-block-end: clamp(4rem, 1.8873rem + 9.0141vw, 10rem);
+}
+
+.payment__title {
+    margin-block-end: clamp(2rem, 0.9437rem + 4.507vw, 5rem);
+
+    font-family: 'Montserrat';
+    font-size: clamp(1.5rem, 1.1479rem + 1.5023vw, 2.5rem);
+    text-align: center;
+}
+
+.payment__list {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+    list-style: none;
+}
+
+.payment__list-item {
+    flex-shrink: 1;
+
+    inline-size: clamp(8.125rem, 6.5845rem + 6.5728vw, 12.5rem);
+}
+
+.payment__image {
+    inline-size: 100%;
+}

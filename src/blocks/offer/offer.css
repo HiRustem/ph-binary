@@ -1,0 +1,21 @@
+.offer {
+    position: relative;
+
+    padding-block-end: clamp(3rem, 2.2958rem + 3.0047vw, 5rem);
+
+    z-index: 5;
+}
+
+.offer__title {
+    margin-block-end: clamp(2rem, 1.6479rem + 1.5023vw, 3rem);
+
+    font-family: 'Montserrat';
+    font-size: clamp(1.5rem, 0.9718rem + 2.2535vw, 3rem);
+
+    text-align: center;
+}
+
+.offer__text {
+    font-size: clamp(0.8rem, 0.7296rem + 0.3005vw, 1rem);
+    text-align: center;
+}

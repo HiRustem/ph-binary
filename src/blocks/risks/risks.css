@@ -1,0 +1,56 @@
+.risks {
+    margin-block-end: clamp(2rem, 0.9437rem + 4.507vw, 5rem);
+}
+
+.risks__title {
+    display: flex;
+    gap: .5rem;
+
+    align-items: center;
+
+    margin-block-end: 1rem;
+
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 400;
+    color: #9abacf;
+}
+
+.risks__title-label {
+    display: block;
+
+    block-size: 25px;
+    inline-size: 25px;
+
+    border: 2px solid #0099fa;
+    border-radius: 50%;
+
+    color: #0099fa;
+
+    text-align: center;
+}
+
+.risks__description {
+    margin-block-end: 1rem;
+
+    font-size: .8rem;
+    font-weight: 400;
+    color: #9abacf;
+}
+
+.risks__link {
+    font-size: clamp(0.8rem, 0.7515rem + 0.2071vw, 1rem);
+
+    font-weight: 400;
+
+    border-bottom: 1px solid #0099fa;
+}
+
+@media (width < 768px) {
+    .risks {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+}

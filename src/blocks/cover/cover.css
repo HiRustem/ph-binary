@@ -1,0 +1,26 @@
+.cover {
+    position: relative;
+
+    padding-block-start: clamp(4rem, 1.8873rem + 9.0141vw, 10rem);
+    padding-block-end: clamp(2rem, 0.5915rem + 6.0094vw, 6rem);
+
+    z-index: 5;
+}
+
+.cover__title {
+    font-family: 'Montserrat';
+    font-size: clamp(1.5rem, 0.8662rem + 2.7042vw, 3.3rem);
+    font-weight: 600;
+    line-height: clamp(2.2rem, 1.5662rem + 2.7042vw, 4rem);
+    letter-spacing: .1rem;
+
+    text-align: center;
+}
+
+.cover__text {
+    margin-block-start: 3rem;
+
+    font-size: clamp(1rem, 0.8239rem + 0.7512vw, 1.5rem);
+
+    text-align: center;
+}
