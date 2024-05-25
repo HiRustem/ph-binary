@@ -34,16 +34,12 @@
     block-size: 40rem;
     inline-size: 100%;
 
-    /* background-image: url(../images/cover-bg.svg); */
+    background-image: url(../images/cover-bg.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 
     z-index: 2;
-}
-
-.bg-animation_visible {
-    background-image: url(../images/cover-bg.svg);
 }
 
 /* .layout {
