@@ -56,7 +56,19 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html'
+      filename: 'index.html',
+      template: 'src/index.html',
+      chunks: ['main']
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'privacy.html',
+      template: 'src/pages/privacy.html',
+      chunks: ['info']
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'terms.html',
+      template: 'src/pages/terms.html',
+      chunks: ['info']
     }),
     new MiniCssExtractPlugin(),
     new CleanWebpackPlugin(),
