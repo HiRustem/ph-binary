@@ -2,6 +2,8 @@
     position: relative;
 
     margin-block-end: clamp(4rem, 1.8873rem + 9.0141vw, 10rem);
+
+    overflow-x: hidden;
 }
 
 .steps_bg {
@@ -40,6 +42,8 @@
     gap: 2rem;
 
     list-style: none;
+
+    overflow-x: hidden;
 }
 
 .steps__list-card {
