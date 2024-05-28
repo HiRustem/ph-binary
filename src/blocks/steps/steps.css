@@ -3,8 +3,13 @@
 
     margin-block-end: clamp(4rem, 1.8873rem + 9.0141vw, 10rem);
 
-    overflow-x: hidden;
+
 }
+
+.steps::-webkit-scrollbar {
+    inline-size: 0;
+}
+
 
 .steps_bg {
     position: absolute;
@@ -43,7 +48,7 @@
 
     list-style: none;
 
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .steps__list-card {
