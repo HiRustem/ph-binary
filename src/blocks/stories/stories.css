@@ -4,6 +4,8 @@
     background-image: url(../../images/costumer-blur.webp);
     background-position: center;
     background-repeat: no-repeat;
+
+    /* overflow-x: hidden; */
 }
 
 .stories__title {
@@ -24,6 +26,7 @@
     margin-block-end: clamp(1rem, -0.0563rem + 4.507vw, 4rem);
 
     list-style: none;
+    scrollbar-width: 0;
 }
 
 .stories__list-item:nth-child(2n) {
