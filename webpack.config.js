@@ -63,12 +63,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'privacy.html',
       template: 'src/pages/privacy.html',
-      chunks: ['info']
+      chunks: ['main']
     }),
     new HtmlWebpackPlugin({
       filename: 'terms.html',
       template: 'src/pages/terms.html',
-      chunks: ['info']
+      chunks: ['main']
     }),
     new MiniCssExtractPlugin(),
     new CleanWebpackPlugin(),

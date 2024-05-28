@@ -96,7 +96,6 @@
     -webkit-box-shadow: 0px 0px 27px 8px rgba(0, 153, 250, 0.2);
     -moz-box-shadow: 0px 0px 27px 8px rgba(0, 153, 250, 0.2);
     box-shadow: 0px 0px 27px 8px rgba(0, 153, 250, 0.2);
-
 }
 
 .steps__list-card-heading {
@@ -163,6 +162,14 @@
     .third-step,
     .fourth-step {
         margin-inline-start: 0;
+    }
+
+    .steps__list-card:hover .steps__list-card-image {
+        border: none;
+
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
     }
 }
 

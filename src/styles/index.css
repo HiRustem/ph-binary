@@ -13,6 +13,9 @@
 @import '../blocks/risks/risks.css';
 @import '../blocks/footer/footer.css';
 
+@import '../pages/privacy.css';
+@import '../pages/terms.css';
+
 .page {
     position: relative;
 
@@ -23,6 +26,8 @@
     font-weight: 600;
 
     color: #fff;
+
+    overflow-x: hidden;
 }
 
 .bg-animation {
